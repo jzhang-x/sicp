@@ -8,7 +8,7 @@
       0
       (+ (term a)
 	 (sum term (next a) next b))))
-
+    
 (define (simpson f a b n)
   (define h (/ (- b a) n))
   (define (y k)
